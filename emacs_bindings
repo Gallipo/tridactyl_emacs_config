@@ -86,6 +86,7 @@ bind <C-x><C-u>52 winopen -private
 bind g fillcmdline open
 bind <C-u>0g current_url open
 bind <C-u>g fillcmdline tabopen
+bind ug fillcmdline tabopen
 
 " Textfields
 bind --mode=insert <C-d> text.delete_char
