@@ -86,6 +86,7 @@ bind <C-u>g fillcmdline tabopen
 bind --mode=insert <C-d> text.delete_char
 bind --mode=insert <C-t> text.transpose_char
 bind --mode=insert <A-t> text.transpose_words
+bind --mode=insert <C-n> scrollline 1
 bind --mode=insert <A-u> text.upcase_word
 bind --mode=insert <A-l> text.downcase_word
 bind --mode=insert <A-c> text.capitalize_word
