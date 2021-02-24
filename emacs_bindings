@@ -57,6 +57,7 @@ bind <C-x>rj fillcmdline bmarks
 bind <C-x>rm fillcmdline current_url bmark
 
 " Tabs
+bind + tabnew
 bind f tabnext
 bind <C-c><C-f> tabnext
 bind b tabprev
@@ -75,8 +76,8 @@ bind <C-/> undo
 
 " Pages
 bind R reload
-bind + zoom 0.1 true
-bind - zoom -0.1 true
+bind <C-+> zoom 0.1 true
+bind <C--> zoom -0.1 true
 bind = zoom 1
 
 " Frames
