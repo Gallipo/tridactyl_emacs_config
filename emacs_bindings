@@ -4,6 +4,8 @@ unbind <C-u>
 unbind <C-x>
 unbind <C-g>
 unbind <C-Space>
+
+" Unbinding some stuff I don't like
 unbind j
 unbind k
 
@@ -17,7 +19,9 @@ bind <Backspace> scrollpage -1
 bind <A->> scrollto 100
 bind <A-<> scrollto 0
 bind <C-n> scrollline 10
+bind n scrollline 10
 bind <C-p> scrollline -10
+bind p scrollline -10
 bind <C-u><C-Space> jumpprev
 
 " Commands
