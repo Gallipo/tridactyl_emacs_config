@@ -18,9 +18,9 @@ bind <A-v> scrollpage -1
 bind <Backspace> scrollpage -1
 bind <A->> scrollto 100
 bind <A-<> scrollto 0
-bind <C-n> scrollline 10
+
 bind n scrollline 10
-bind <C-p> scrollline -10
+
 bind p scrollline -10
 bind <C-u><C-Space> jumpprev
 
@@ -39,8 +39,8 @@ bind <C-u>l hint -b
 bind --mode=hint <C-g> hint.reset
 bind c hint -y
 bind w clipboard yank
-bind <C-c><C-n> followpage next
-bind <C-c><C-p> followpage prev
+bind <C-n> followpage next
+bind <C-p> followpage prev
 
 " History
 bind F forward
