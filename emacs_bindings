@@ -18,9 +18,7 @@ bind <A-v> scrollpage -1
 bind <Backspace> scrollpage -1
 bind <A->> scrollto 100
 bind <A-<> scrollto 0
-
 bind n scrollline 10
-
 bind p scrollline -10
 bind <C-u><C-Space> jumpprev
 
@@ -53,7 +51,9 @@ bind <C-x>rm current_url bmark
 
 " Tabs
 bind f tabnext
+bind <C-c><C-f> tabnext
 bind b tabprev
+bind <C-c><C-p> tabprev
 bind <A-f> tabmove +1
 bind <A-b> tabmove -1
 bind <C-x>b fillcmdline buffer
