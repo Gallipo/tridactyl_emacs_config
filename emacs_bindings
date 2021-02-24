@@ -9,7 +9,9 @@ unbind <C-Space>
 unbind j
 unbind k
 unbind <C-f>
-undibd <C-b>
+undind <C-b>
+unbind u
+unbind U
 
 " Ctrl-g is your friend (and hardcoded <C-,> of course)
 bind --mode=browser <C-g> composite escapehatch | clearsearchhighlight
