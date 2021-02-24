@@ -12,6 +12,8 @@ unbind k
 " Ctrl-g is your friend (and hardcoded <C-,> of course)
 bind --mode=browser <C-g> composite escapehatch | clearsearchhighlight
 
+" The "editor"-function is broken (at the moment) and practically useless
+
 " Navigation
 bind <C-v> scrollpage 1
 bind <A-v> scrollpage -1
