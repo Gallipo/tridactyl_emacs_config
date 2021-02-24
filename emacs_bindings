@@ -13,6 +13,7 @@ unbind k
 bind --mode=browser <C-g> composite escapehatch | clearsearchhighlight
 
 " The "editor"-function is broken (at the moment) and practically useless
+bind <C-i> mode input
 
 " Navigation
 bind <C-v> scrollpage 1
